@@ -6,6 +6,7 @@ Predict whether a champion is "strong" or "not strong" in TFT (Teamfight Tactics
 ### What I did
 - Collected champion data (health, damage, cost, etc.)
 - Standardised all the data into numbers.
+- Moved the scraped data into a CSV and then made it into a Pandas dataframe.
 - Created labels 1 for "strong" and 0 for "not strong"
 - Trained logistic regression and random forest models using the Scikit-learn library.
 - Explored the effects of the train/test split on a small dataset.
